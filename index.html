@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Web</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+    <form id="calculadora">
+        <div class="result">
+            <output type="text" id="res">
+        </div>
+        <div class="botoes">
+            <div id="area-botoes">
+                <button id="apagar" class="botao" onclick="clean()">C</button>
+
+                <button id="divisao" class="botao" onclick="digitar('/')">/</button>
+
+                <button id="multiplicacao" class="botao" onclick="digitar('*')">*</button>
+
+                <button id="n7" class="botao" onclick="digitar(7)">7</button>
+
+                <button id="n8" class="botao" onclick="digitar(8)">8</button>
+
+                <button id="n9" class="botao" onclick="digitar(9)">9</button>
+
+                <button id="subtracao" class="botao" onclick="digitar('-')">-</button>
+
+                <button id="n4" class="botao" onclick="digitar(4)">4</button>
+
+                <button id="n5" class="botao" onclick="digitar(5)">5</button>
+
+                <button id="n6" class="botao" onclick="digitar(6)">6</button>
+
+                <button id="adicao" class="botao" onclick="digitar('+')">+</button>
+
+                <div id="div-baixo">
+                    <div id="num">
+                        <button id="n1" class="botao" onclick="digitar(1)">1</button>
+
+                        <button id="n2" class="botao" onclick="digitar(2)">2</button>
+
+                        <button id="n3" class="botao" onclick="digitar(3)">3</button>
+
+                        <button id="n0" class="botao" onclick="digitar(0)">0</button>
+
+                        <button id="ponto" class="botao" onclick="digitar('.')">.</button>
+
+                    </div>
+                    <div id="igual">
+                        <button id="igual" class="botao" onclick="resposta()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

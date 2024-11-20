@@ -1,0 +1,169 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 0px 0px;
+    background-color: rgb(243, 243, 243);
+}
+
+#calculadora{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgb(19, 19, 19);
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 98px;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+#res{
+    margin-top: 35px;
+    background-color: floralwhite;
+    width: 320px;
+    height: 55px;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: rgb(204, 204, 204);
+
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 502px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+#area-botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 5px;
+    width: 335px;
+    height: 420fpx;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+.botao{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+.op{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+.botao-maior-h{
+    
+}
+
+#apagar{
+    width: 165px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+#n0{
+    width: 165px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+.botao-maior-v{
+    
+}
+
+#igual{
+    width: 80px;
+    height: 165px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+#div-baixo{
+    display: flex;
+    gap: 5px;
+    width: 335px;
+    height: 165px;
+    background-color: rgba(220, 20, 60, 0);
+}
+
+#num{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+#igual{
+    width: 80px;
+    height: 165px;
+}
+
+#ponto{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
